@@ -1,0 +1,288 @@
+/***********************
+ * Essential Structure *
+ ***********************/
+.flexsearch--wrapper {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+.flexsearch {
+  padding: 0 10px 5px 0px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 40px;
+  padding: 0 46px 0 10px;
+	border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 5px;
+  margin-top: 15px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.flexsearch--submit {
+  position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 40px;
+	height: 40px;
+  padding: 0;
+  border: none;
+	margin-top: 10px; /* margin-top + border-width */
+  margin-right: 10px; /* border-width */
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888; 
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+
+
+/****************
+ * Pretify demo *
+ ****************/
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Nunito', sans-serif;
+}
+
+.h1 {
+  float: left;
+  margin: 15px 5px 5px 65px;
+  color: #333;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 45px;
+  text-align: center;
+}
+
+/* Aca empieza mi código*/
+
+body, input{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+  position: absolute;
+  top: 8px;
+}
+
+#header{
+ background-color: #E7FFEC;
+ border-radius:20px ;
+}
+
+.clickable:hover{
+  opacity: 70%;
+  cursor: pointer;
+}
+
+div.flexsearch img{
+  float: right;
+  position: relative;
+  top: 17px;
+  margin-left: 3px;
+}
+
+.header-icons{
+   height: 45px;
+}
+
+#flecha{
+  height: 15px;
+  position: relative;
+  top: 30px;
+  left: 7px;
+}
+
+.profile-image{
+  height: 40px;
+  border-radius: 20px;
+  position: relative;
+  top: 17px;
+  left: 8px;
+  float: left;
+}
+
+.profile-name{
+  font-weight: bold;
+  position: relative;
+  top: 17px;
+  left: 14px;
+}
+
+.profile-name:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+textarea {
+    overflow: hidden;
+    resize: none;
+    border-radius: 12px;
+}
+
+
+.post-icon{
+  position: relative;
+  left: 55px;
+  height: 37px;
+}
+
+#post-button{
+  position: relative;
+  left: 53.5%;
+  bottom: 10px;
+  height: 45px;
+  font-weight: bold;
+  border-radius: 15px;
+  border-color: #23E176;
+  background-color: #C7F9DD;
+}
+
+.post{
+  border: solid 1px grey;
+  width: 57%;
+  margin: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  position: relative;
+  left: 13%;
+}
+
+.post p{
+  position: relative;
+  left: 15px;
+}
+
+svg{
+  height: 21px;
+  position: relative;
+  top:5px;
+  left: 1px;
+  fill: #23E176;
+}
+
+#post-3{
+  text-indent: 40px;
+}
+
+.post-image{
+  position: relative;
+  left: 17%;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+.aside{
+  float: right;
+  margin: 10px;
+  border-radius: 10px;
+  width: 27%;
+}
+
+.aside-post{
+  border: solid 1px grey;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.aside-post p{
+  position: relative;
+  left: 15px;
+}
+
+.aside h2{
+  margin: 5px 0px 5px 5px;
+}
+
+
+a{
+  margin-left: 14px;
+  line-height: 1.6;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+a:visited{
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#links{
+  padding-top: 5px;
+}
+
+#copyright{
+  margin: 7px 0px 3px 20px;
+}
+
+#top-links{
+    word-spacing: 1.5em;
+}
+
+.interaccion{
+  margin-right: 15px;
+}
+
+.aside-section{
+  background-color: #E7FFEC;
+  margin-top: 5px;
+  border: solid 1px grey;
+  padding: 1px;
+}

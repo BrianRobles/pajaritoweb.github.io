@@ -172,6 +172,7 @@ textarea {
     overflow: hidden;
     resize: none;
     border-radius: 12px;
+    box-sizing: border-box;
 }
 
 
